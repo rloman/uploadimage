@@ -19,11 +19,17 @@ public class Project implements Serializable {
     @Column(name = "name")
     private String name;
     
+    
+    // start hier Stefan
     @Lob
-    @Column(name = "picture")
+    @Column(name = "picture", length=17777215)
     private byte[] picture;
     
-    @Column(name = "picture_content_type")        private String pictureContentType;
+    @Column(name = "picture_content_type")        
+    private String pictureContentType;
+    
+    //eind hier Stefan
+    
     public Long getId() {
         return id;
     }
