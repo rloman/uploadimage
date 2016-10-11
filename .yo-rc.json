@@ -1,0 +1,25 @@
+{
+  "generator-jhipster": {
+    "baseName": "uploadimage",
+    "packageName": "nl.programit",
+    "packageFolder": "nl/programit",
+    "authenticationType": "session",
+    "hibernateCache": "no",
+    "clusteredHttpSession": "no",
+    "websocket": "no",
+    "databaseType": "sql",
+    "devDatabaseType": "mysql",
+    "prodDatabaseType": "mysql",
+    "searchEngine": "no",
+    "useSass": false,
+    "buildTool": "maven",
+    "frontendBuilder": "gulp",
+    "enableTranslation": true,
+    "enableSocialSignIn": false,
+    "rememberMeKey": "43647e780f9eee438b45005f8024044e7521a579",
+    "testFrameworks": [
+      "gatling",
+      "cucumber"
+    ]
+  }
+}
